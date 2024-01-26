@@ -1,47 +1,19 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Menu from './views/Menu/Menu.vue'
+import Banner from './views/Banner/Banner.vue'
+import Skill from './views/Skill/Skill.vue'
+import About from './views/About/About.vue'
+import Work from './views/Work/Work.vue'
+import Contact from './views/Contact/Contact.vue'
+import ScrollBtn from './components/Scroll-Btn/Scroll-Btn.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
-</template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+    <Menu />
+    <Banner id="banner" />
+    <Skill id="skills" />
+    <About id="about" />
+    <Work id="work" />
+    <Contact id="contact" />
+    <ScrollBtn />
+ </template>
