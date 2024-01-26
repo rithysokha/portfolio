@@ -72,7 +72,7 @@ const works = [
       >
         <a :href="work.link" target="_blank">
         <div class="flex flex-col items-center text-center sm:h-[28vw] xl:h-[25vw] border-2 border-gray-200">
-          <img class=" " :src="work.image" alt="Work" />
+          <img loading="lazy" class=" " :src="work.image" alt="Work" />
           <div class="flex flex-col items-center text-center">
             <p class="font-bold">{{ work.name }}</p>
             <div class="flex sm:block">

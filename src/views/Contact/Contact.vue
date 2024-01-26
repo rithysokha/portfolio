@@ -74,7 +74,7 @@ const contacts=[
         <div class="grid grid-cols-4 gap-5 sm:gap-7 lg:grid-cols-7 my-10 w-[100vw] lg:w-[70vw] justify-items-center">
             <div v-for="contact in contacts" :key="contact.id" class="relative group">
                 <a :href="contact.value">
-                    <img class="w-8 hover:scale-125 transition-all duration-300" :src="contact.icon" :alt="contact.name" />
+                    <img loading="lazy" class="w-8 hover:scale-125 transition-all duration-300" :src="contact.icon" :alt="contact.name" />
                 </a>
                 <div class="whitespace-nowrap absolute left-1/2 transform -translate-x-1/2 bottom-full mb-2 opacity-0 group-hover:opacity-100 transition-all duration-300 bg-gray-200 text-black text-xs rounded-md p-1">
                     {{contact.placeHolder}}

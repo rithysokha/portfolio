@@ -1,6 +1,4 @@
-<script setup>
-import profileImage from '../../assets/pictures/profile.webp'
-</script>
+
 <template>
   <main class="bg-[#f9f9f9] sm:flex sm:py-40">
 
@@ -8,7 +6,7 @@ import profileImage from '../../assets/pictures/profile.webp'
       <div class="flex items-center sm:justify-end">
         <div class="w-[100vw] sm:w-[40vw] flex items-center justify-center space-x-10 sm:flex-col sm:space-x-0 2xl:items-end">
           <div>
-          <img class="w-[40vw] sm:w-[20vw] 2xl:w-[10vw]  border-gray-300" :src="profileImage" alt="Profile" />
+          <img loading="lazy" class="w-[40vw] sm:w-[20vw] 2xl:w-[10vw] aspect-square border-gray-300" src="https://res.cloudinary.com/dbiso7uht/image/upload/f_auto,q_10/v1706248597/profile_e26koe.webp" alt="Profile" />
           <div class="ml-1">
           <p class="font-bold underline text-l 2xl:text-2xl">Sokha Rithy</p>
           <p class="text-sm 2xl:text-lg">Web Developer</p>

@@ -1,8 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
 
-
-
 </script>
 <template> 
   <main class="bg-[#f9f9f9] flex justify-center sm:justify-end h-10 fixed w-[100vw]  bottom-0 sm:top-0 z-40 items-center">

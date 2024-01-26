@@ -62,7 +62,7 @@ const skills = [
         :key="skill.id"
         class="w-fit-content flex flex-col items-center border-b border-gray-200 my-5 sm:w-[30vw]"
       >
-        <img class="w-[15vw] lg:w-[10vw]" :src="skill.image" :alt="skill.name + ' image'" />
+        <img loading="lazy" class="w-[15vw] lg:w-[10vw] aspect-square" :src="skill.image" :alt="skill.name + ' image'" />
         <div class="flex flex-col items-center mt-1">
           <p class="font-bold mb-1 lg:text-xl">{{ skill.name }}</p>
           <p class="lg:text-xl" v-for="technology in skill.technologies" :key="technology.id">
