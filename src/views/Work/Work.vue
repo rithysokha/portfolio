@@ -62,7 +62,7 @@ const works = [
 </script>
 <template>
   <main class="my-20">
-    <p class="text-center text-3xl font-semibold">My latest work</p>
+    <p class="text-center text-3xl font-semibold">Contributed projects</p>
   <div class="flex justify-center items-center ">
     <div class="my-2 w-[90vw] grid-cols-1 sm:flex sm:w-screen items-center sm:justify-center sm:gap-10">
       <div
