@@ -22,7 +22,7 @@ const works = [
       },
       {
         id: 3,
-        name: 'Docker'
+        name: 'Bootstrap'
       }
     ]
   },
@@ -34,7 +34,15 @@ const works = [
     technologies: [
       {
         id: 1,
-        name: 'Python Flask'
+        name: 'Python Flask,'
+      },
+       {
+        id: 2,
+        name: 'Next.js,'
+      },
+       {
+        id: 3,
+        name: 'Tailwind CSS'
       }
     ]
   },
@@ -46,15 +54,15 @@ const works = [
     technologies: [
       {
         id: 1,
-        name: 'Docker, '
+        name: 'React.js, '
       },
       {
         id: 2,
-        name: 'Firebase, '
+        name: 'Tailwind CSS, '
       },
       {
         id: 3,
-        name: 'AWS EC2'
+        name: 'Spring Boot'
       }
     ]
   }
