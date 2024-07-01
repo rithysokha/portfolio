@@ -18,11 +18,11 @@ const works = [
       },
       {
         id: 2,
-        name: 'Strapi CMS, '
+        name: 'Bootstrap, '
       },
       {
         id: 3,
-        name: 'Bootstrap'
+        name: 'Strapi CMS'
       }
     ]
   },
@@ -32,17 +32,17 @@ const works = [
     image: evaImage,
     link: 'https://eva.rupp.support/',
     technologies: [
-      {
-        id: 1,
-        name: 'Python Flask,'
-      },
        {
-        id: 2,
+        id: 1,
         name: 'Next.js,'
       },
        {
+        id: 2,
+        name: 'Tailwind CSS,'
+      },
+      {
         id: 3,
-        name: 'Tailwind CSS'
+        name: 'Python Flask'
       }
     ]
   },
