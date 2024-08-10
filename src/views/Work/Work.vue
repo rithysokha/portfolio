@@ -76,10 +76,10 @@ const works = [
       <div
         v-for="work in works"
         :key="work.id"
-        class="rounded-md my-2 sm:w-[25vw] lg:w-[30vw] xl:h-[25vw] shadow-md hover:shadow-xl transition-all duration-300"
+        class="rounded-md my-2 sm:w-[25vw] lg:w-[30vw] xl:h-[25vw] shadow-md  hover:shadow-xl transition-all duration-300 dark:hover:shadow-gray-800"
       >
         <a :href="work.link" target="_blank">
-        <div class="flex flex-col items-center text-center sm:h-[28vw] xl:h-[25vw] border-2 border-gray-200">
+        <div class="flex flex-col items-center text-center sm:h-[28vw] xl:h-[25vw] border-2 border-gray-200 dark:border-gray-800">
           <img loading="lazy" class=" " :src="work.image" alt="Work" />
           <div class="flex flex-col items-center text-center">
             <p class="font-bold">{{ work.name }}</p>

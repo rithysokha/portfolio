@@ -60,10 +60,11 @@ const contacts=[
 ]
 </script>
 <template>
-    <main class="mb-40">
+    <main class="pb-40">
         <div class="text-center flex flex-col items-center">
             <p class="text-3xl font-semibold">
                 Let's work together!
+              <i class="fa-solid fa-envelope"></i>
             </p>
             <p class="w-[90vw] sm:w-[60vw] lg:w-[45vw]">
                 I'm always happy and wish to join your develop team to make things happen in a quick and efficient way.
@@ -81,6 +82,7 @@ const contacts=[
                 </div>
             </div>
         </div>
+
     </div>
     </main>
 </template>

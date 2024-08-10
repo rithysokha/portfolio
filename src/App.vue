@@ -9,6 +9,7 @@ import ScrollBtn from './components/Scroll-Btn/Scroll-Btn.vue'
 </script>
 
 <template>
+  <div class="bg-[#f9f9f9] dark:bg-gray-900 text-gray-900 dark:text-[#f9f9f9]">
     <Menu />
     <Banner id="banner" />
     <Skill id="skills" />
@@ -16,4 +17,5 @@ import ScrollBtn from './components/Scroll-Btn/Scroll-Btn.vue'
     <Work id="work" />
     <Contact id="contact" />
     <ScrollBtn />
+  </div>
  </template>

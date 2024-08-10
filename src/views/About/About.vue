@@ -1,12 +1,12 @@
 
 <template>
-  <main class="bg-[#f9f9f9] sm:flex sm:py-40">
+  <main class=" sm:flex sm:py-40">
 
     <div class="w-fit">
       <div class="flex items-center sm:justify-end">
         <div class="w-[100vw] sm:w-[40vw] flex items-center justify-center space-x-10 sm:flex-col sm:space-x-0 2xl:items-end">
           <div>
-          <img loading="lazy" class="w-[40vw] sm:w-[20vw] 2xl:w-[10vw] aspect-square border-gray-300" src="../../assets/pictures/Sokha Rithy Profile.webp" alt="Profile" />
+          <img loading="lazy" class="w-[40vw] sm:w-[20vw] 2xl:w-[10vw] aspect-square border-gray-300" src="../../assets/pictures/Sokha_Rithy_profile.webp" alt="Profile" />
           <div class="ml-1">
           <p class="font-bold underline text-l 2xl:text-2xl">Sokha Rithy</p>
           <p class="text-sm 2xl:text-lg">Web Developer</p>

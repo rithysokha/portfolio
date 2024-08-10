@@ -23,7 +23,7 @@ const scrollToTop = () => {
     <main class="right-0 bottom-0 fixed mr-5 mb-2  z-50">
         <div class="" v-show="scrollPosition > 100">
             <img
-              class="w-6 h-6 2xl:w-8 2xl:h-8 hover:scale-125 transition-all duration-300"
+              class="w-6 h-6 2xl:w-8 2xl:h-8 hover:scale-125 cursor-pointer transition-all duration-300"
               :src="iconUp"
               alt="icon up"
               @click="scrollToTop"
