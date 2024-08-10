@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted, onUnmounted, ref } from 'vue';
-import iconUp from "../../assets/pictures/angle-up-solid.svg";
 
 const scrollPosition = ref(0);
 const updateScroll = () => {
@@ -20,14 +19,9 @@ const scrollToTop = () => {
 };
 </script>
 <template>
-    <main class="right-0 bottom-0 fixed mr-5 mb-2  z-50">
+    <main class="right-0 bottom-0 fixed mr-5 mb-1  z-50">
         <div class="" v-show="scrollPosition > 100">
-            <img
-              class="w-6 h-6 2xl:w-8 2xl:h-8 hover:scale-125 cursor-pointer transition-all duration-300"
-              :src="iconUp"
-              alt="icon up"
-              @click="scrollToTop"
-            />
+            <i class="fa-solid fa-chevron-up h-5 2xl:w-8 2xl:h-8 text-md sm:text-xl hover:scale-125 cursor-pointer transition-all duration-300" @click="scrollToTop"></i>
           </div>
     </main>
 </template>
