@@ -12,6 +12,10 @@ const skills = [
       {
         id: 2,
         name: 'React.js'
+      },
+      {
+        id:3,
+        name: 'Nuxt.js'
       }
     ]
   },
@@ -27,6 +31,10 @@ const skills = [
       {
         id: 2,
         name: 'Java Spring Boot'
+      },
+      {
+        id:3,
+        name: 'Laravel'
       }
     ]
   },
@@ -36,16 +44,16 @@ const skills = [
     image: "fa-brands fa-docker",
     technologies: [
       {
-        id: 1,
-        name: 'Nginx'
-      },
-      {
         id: 2,
         name: 'Docker'
       },
       {
         id: 3,
         name: 'Linux Server'
+      },
+      {
+        id:4,
+        name: 'GitHub Runer'
       }
     ]
   }

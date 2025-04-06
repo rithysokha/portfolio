@@ -20,10 +20,9 @@
         <p class="font-bold lg:text-xl 2xl:text2xl">Bio:</p>
         <p class="lg:text-lg xl:text-xl 2xl:text-2xl">
           <span class="pl-6" /> I am a web developer who is passionate about various web technologies. I
-          have experience in developing web applications using React.js, Vue.js and building api with Python
-          Flask, Java Spring Boot. I am also familiar with deployment
-          using Nginx, Docker, and Linux Server.<br/>
-          <span class="pl-4" /> Currently I'm an IT Engineering Student at Royal University of Phnom Penh.
+          have experience in developing web applications using <span class="underline">Nuxt.js, Vue.js</span> and building api with <span class="underline">Laravel, Java Spring Boot</span>. I am also familiar with deployment
+          using <span class="underline">Nginx, Docker, and Linux Server, CI/CD with GitHub runner.</span><br/>
+          <span class="pl-4" /> Currently I'm an IT Engineering Student at Royal University of Phnom Penh and also an API developer in a bank in Phnom Penh.
         </p> 
     </div>
 

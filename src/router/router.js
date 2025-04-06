@@ -16,18 +16,21 @@ const router = createRouter({
     {
       path: '/about',
       name: 'about',
+      mode: 'abstract',
       redirect: '/#about',
       component: About
     },
     {
       path: '/works',
       name: 'work',
+      mode: 'abstract',
       redirect: '/#work',
       component: Work
     },
     {
       path: '/contact',
       name: 'contact',
+      mode: 'abstract',
       redirect: '/#contact',
       component: Contact
     }

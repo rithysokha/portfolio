@@ -3,8 +3,8 @@ const feImage =
   'https://res.cloudinary.com/dbiso7uht/image/upload/f_auto,q_5/v1706158671/Screenshot_2024-01-25_114849_cd9lge.png'
 const evaImage =
   'https://res.cloudinary.com/dbiso7uht/image/upload/f_auto,q_5/v1706158663/Screenshot_2024-01-25_115150_wfgq5v.png'
-const derlengImage =
-  'https://res.cloudinary.com/dbiso7uht/image/upload/f_auto,q_5/v1706158688/Screenshot_2024-01-25_115209_eskkzg.png'
+const webboardImage =
+  'https://res.cloudinary.com/dbiso7uht/image/upload/f_auto,q_5/v1743947750/Screenshot_2025-04-06_205327_dnod8z.png'
 const works = [
   {
     id: 1,
@@ -48,13 +48,13 @@ const works = [
   },
   {
     id: 3,
-    name: 'Derleng website',
-    image: derlengImage,
+    name: 'Webboard (In development stage)',
+    image: webboardImage,
     link: 'https://derleng.site/',
     technologies: [
       {
         id: 1,
-        name: 'React.js, '
+        name: 'Nuxt3 (Full stack), '
       },
       {
         id: 2,
@@ -62,7 +62,7 @@ const works = [
       },
       {
         id: 3,
-        name: 'Spring Boot'
+        name: 'Websocket (Real time update)'
       }
     ]
   }
@@ -82,7 +82,7 @@ const works = [
         <div class="flex flex-col items-center text-center sm:h-[28vw] xl:h-[25vw] border-2 border-gray-200 dark:border-gray-800">
           <img loading="lazy" class=" " :src="work.image" alt="Work" />
           <div class="flex flex-col items-center text-center">
-            <p class="font-bold">{{ work.name }}</p>
+            <p class="font-bold mt-2">{{ work.name }}</p>
             <div class="flex sm:block">
               <p v-for="technology in work.technologies" :key="technology.id" class="mr-1">
                 {{ technology.name }}
